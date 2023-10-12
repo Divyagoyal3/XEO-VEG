@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="header">
+            <div class="container">
+                <div class="nevbar">
+                    <div class="logo">
+                        <a href="index.html" class="logo"><img src="https://i.ibb.co/zxcR00c/logo-no-background.png" alt="VeggieMart logo" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="menuitem">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="di.html">Product</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="login.html">Account</a></li>
+                            <li><a href="cart.html"><img src="https://i.ibb.co/FVc2RRj/cart.png" alt="cart" width="30px" ></a></li>
+                        </ul>
+                    </nav>
+                    <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />                
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>
+                            Eat Well, Feel Great <br /> 
+                            with VeggieMart's product !
+                        </h1>
+                        <p>
+                            Shop with confidence: Our satisfaction guarantee and commitment to customer service.
+                        </p>
+                        <button id="scrollButton" class="btn">Explore now &#8595;</button>
+                    </div>
+                    <div class="col-2">                    
+                        <img src="https://i.ibb.co/KKNQsHZ/tinywow-logo-17926104.png" alt="tinywow-logo-17926104">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <div class="form-modal">
+    
+        <div class="form-toggle">
+            <button id="login-toggle" onclick="toggleLogin()">log in</button>
+            <button id="signup-toggle" onclick="toggleSignup()">sign up</button>
+        </div>
+    
+        <div id="login-form">
+            <form>
+                <input type="text" placeholder="Enter email or username"/>
+                <input type="password" placeholder="Enter password"/>
+                <button type="button" class="btn login">login</button>
+                <p><a href="javascript:void(0)">Forgotten account</a></p>
+                <hr/>
+    
+            </form>
+        </div>
+    
+        <div id="signup-form">
+            <form>
+                <input type="email" placeholder="Enter your email"/>
+                <input type="text" placeholder="Choose username"/>
+                <input type="password" placeholder="Create password"/>
+                <button type="button" class="btn signup">create account</button>
+                <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)">terms of services</a>.</p>
+                <hr/>
+               
+            </form>
+        </div>
+    
+    </div><br><br><br>
+    <!-- Footer -->
+<section class="footer">
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download apk for Android and ISO mobile phone for FREE.</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/" target="_blank"><img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="play-stor" /></a>
+                        <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="https://i.ibb.co/hVM4X2p/app-store.png" alt="app-store" /></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="#"><img src="https://i.ibb.co/51DGTCN/Picture1.png" alt="logo-white"></a>    
+                    <p>Thank you for choosing VeggieMart as your source for fresh, healthy produce. Our 
+                        mission is to provide you with the best possible shopping experience, from our 
+                        hand-picked selection of locally-sourced fruits and vegetables to our exceptional 
+                        customer service.</p>                
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="index.html"><li>Coupens</li></a>
+                        <a href="index.html"><li>Blog Post</li></a>
+                        <a href="about.html"><li>About</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/j_a_y_e_s_h___patil07/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100040313543868" target="_blank"">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/@pjgaming8135" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <!-- https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js -->
+            <p class="copyright">Copyright & copy; 2023 - Veggie Mart</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
